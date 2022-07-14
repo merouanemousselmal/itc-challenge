@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Alatsi&family=Inter:wght@400;500;700&family=Libre+Bodoni:ital,wght@1,400;1,500;1,600;1,700&family=Montserrat:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Alata&family=Alatsi&family=Alegreya+Sans:wght@700&family=Inter:wght@400;500;700&family=Libre+Bodoni:ital,wght@1,400;1,500;1,600;1,700&family=Montserrat:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Alata&family=Alatsi&family=Inter:wght@400;500;700&family=Libre+Bodoni:ital,wght@1,400;1,500;1,600;1,700&family=Montserrat:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Alata&family=Alatsi&family=Alegreya+Sans:wght@500;700&family=Alegreya:ital,wght@1,500&family=Inter:wght@400;500;700&family=Libre+Bodoni:ital,wght@1,400;1,500;1,600;1,700&family=Montserrat:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Alata&family=Alatsi&family=Alegreya+Sans:wght@500;700&family=Inter:wght@400;500;700&family=Libre+Bodoni:ital,wght@1,400;1,500;1,600;1,700&family=Montserrat:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/*
+COLORS:
+#c04c3e
+#e0e2e0
+#4a4644
+#625c5a
+black
+*/
+
+/*
+--TYPOGRAPHY--
+Body Copy
+Font size (paragraph): 16px
+
+--FONT--
+Family: [Alatsi]
+Family: [Alegreya Blod]
+Family: [Alata]
+Family: [Open Sans]
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+  
+  body {
+    font-family: "Inter", sans-serif;
+    background-color: #625c5a;
+    
+  }
+
+  .container{
+      background-color: #000;
+      width: 100rem;
+      height: 55rem;
+      padding: 4.2rem;
+      margin: 10rem  auto;
+      border-radius: 40px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  #demo {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    }
+
+  .gridone{
+   position: relative;
+  }
+
+  img{
+    height: 45rem;
+    width:45rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  h1{
+    color: #fff;
+    font-size: 13rem;
+  }
+
+  .firsth1{
+    color: #282524;
+  }
+
+  .secondh1{
+    color: #423e3c;
+  }
+
+  .thirdh1{
+    color: #625c5a;
+  }
+
+  .gridtwo{
+    padding-right: 5rem;
+  }
+
+  h2{
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+
+  h3{
+    font-size: 4rem;
+    font-weight: 500;
+    color: #fff;
+    line-height: 6rem;
+    margin-bottom: 2.4rem;
+  }
+
+  p{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+  }
+  
+
+  .firstprice{
+    font-family: 'Alegreya', serif;
+    font-size: 4rem;
+    color: #c04c3e;
+  }
+
+  .secondprice{
+    font-family: 'Alegreya', serif;
+    font-size: 4rem;  
+  }
+
+  .btn{
+    display: flex;
+    justify-content: center;
+  }
+
+  button{
+    font-family: 'Alata', sans-serif;
+    width: 20rem;
+    height: 5rem;
+    padding: 1rem 3rem;
+    font-size: 2.8rem;
+    font-weight: 400;
+    background: none;
+    border: none;
+    background-color: #a29a97;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .shop{
+    font-size: 3rem;
+  }
+
+  .effect7
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+  content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect7:after
+{
+  right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+
+  
